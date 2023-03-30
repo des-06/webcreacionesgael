@@ -54,16 +54,17 @@ body{
     align-items: center;
     gap: 4% 0;
     padding: 2% 0;
+    width: 100%;
 }
 .search{
     display: flex;
     justify-content: space-between;
     min-width: 50%;
     margin-bottom: 1%;
-    gap: 2% 0;
+    
 }
 .search-bar{
-    min-width: 78%;
+    min-width: 80%;
     border-radius: 10px;
     padding: 0 2%;
 }
@@ -72,30 +73,23 @@ body{
     min-width: fit-content;
     padding: 0 2%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.filter-order{
-    min-width: 50%;
+.filter-order{ 
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2%;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 50%;
+    gap: 5px 0;
 }
 
 
 
 .list{
     border-radius: 10px;
-    padding: 1% 0;
+    cursor: pointer;
 }
-
-.list > option{
-    border-radius: 10px;
-    font-size: small;
-    min-width: min-content;
-}
-
-
 
 /*CONTAINER STYLES*/
 .flex-container{
